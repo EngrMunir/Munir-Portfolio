@@ -25,9 +25,9 @@ const App = () => {
        <Element name='technology'>
        <Technologies/>
        </Element>
-        <Element name='experience'>
+        {/* <Element name='experience'>
         <Experience/>
-        </Element>
+        </Element> */}
         <Element name='project'>
         <Project/>
         </Element>
