@@ -6,6 +6,7 @@ import Technologies from './Components/Technologies';
 import Experience from './Components/Experience';
 import Project from './Components/Project';
 import Contact from './Components/Contact';
+import { Element } from 'react-scroll';
 
 const App = () => {
   return (
@@ -15,12 +16,24 @@ const App = () => {
       </div>
       <div className='container min-h-screen mx-auto px-8'> 
         <Navbar/>
+        <Element name='hero'>
         <Hero/>
+        </Element>
+        <Element name='about'>
         <About/>
-        <Technologies/>
+        </Element>
+       <Element name='technology'>
+       <Technologies/>
+       </Element>
+        <Element name='experience'>
         <Experience/>
+        </Element>
+        <Element name='project'>
         <Project/>
+        </Element>
+        <Element name='contact'>
         <Contact/>
+        </Element>
       </div>
     </div>
   );

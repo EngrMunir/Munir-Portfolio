@@ -40,37 +40,37 @@ export const EXPERIENCES = [
 
 export const PROJECTS = [
   {
-    title: "E-Commerce Website",
+    title: "Scholarship-Management",
     image: project1,
     description:
-      "A fully functional e-commerce website with features like product listing, shopping cart, and user authentication.",
-    technologies: ["HTML", "CSS", "React", "Node.js", "MongoDB"],
+      "A fully functional website with features like post scholarship,apply for scholarship, accept or reject application, giving feedback, make payment fees, dashboard for user,admin,moderator and user authentication.",
+    technologies: ["HTML", "CSS", "React", "Node.js", "MongoDB","Firebase"],
   },
   {
-    title: "Task Management App",
+    title: "Library-Management",
     image: project2,
     description:
-      "An application for managing tasks and projects, with features such as task creation, assignment, and progress tracking.",
-    technologies: ["HTML", "CSS", "Angular", "Firebase"],
+      "An application for managing books with features such add book, borrow book, return book and user application",
+    technologies: ["HTML", "CSS", "React", "Firebase","Mongodb", "Nodejs","Tailwind CSS"],
+  },
+  {
+    title: "Jute-wooden-craft",
+    image: project2,
+    description:
+      "An application for selling Wooden Craft, with features such as post craft, booking craft and user authentication.",
+    technologies: ["HTML", "CSS", "React","Mongodb","Firebase","Nodejs"],
   },
   {
     title: "Portfolio Website",
     image: project3,
     description:
       "A personal portfolio website showcasing projects, skills, and contact information.",
-    technologies: ["HTML", "CSS", "React", "Bootstrap"],
-  },
-  {
-    title: "Blogging Platform",
-    image: project4,
-    description:
-      "A platform for creating and publishing blog posts, with features like rich text editing, commenting, and user profiles.",
-    technologies: ["HTML", "CSS", "Vue.js", "Express", "mySQL"],
-  },
+    technologies: ["HTML", "CSS", "React", "Tailwind CSs"],
+  }
 ];
 
 export const CONTACT = {
-  address: "767 Fifth Avenue, New York, NY 10153 ",
-  phoneNo: "+12 4555 666 00 ",
-  email: "me@example.com",
+  address: "Chattogram, Bangladesh",
+  phoneNo: "+8801831013421",
+  email: "smsirajulmonir@gmail.com",
 };
