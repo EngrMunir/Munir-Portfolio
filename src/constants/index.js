@@ -5,7 +5,9 @@ import project4 from "../assets/projects/project-4.jpg";
 
 export const HERO_CONTENT = `I am a passionate full stack developer with a knack for crafting robust and scalable web applications. With 5 years of hands-on experience, I have honed my skills in front-end technologies like React and Next.js, as well as back-end technologies like Node.js, MySQL, PostgreSQL, and MongoDB. My goal is to leverage my expertise to create innovative solutions that drive business growth and deliver exceptional user experiences.`;
 
-export const ABOUT_TEXT = `I am a dedicated and versatile full stack developer with a passion for creating efficient and user-friendly web applications. With 5 years of professional experience, I have worked with a variety of technologies, including React, Next.js, Node.js, MySQL, PostgreSQL, and MongoDB. My journey in web development began with a deep curiosity for how things work, and it has evolved into a career where I continuously strive to learn and adapt to new challenges. I thrive in collaborative environments and enjoy solving complex problems to deliver high-quality solutions. Outside of coding, I enjoy staying active, exploring new technologies, and contributing to open-source projects.`;
+export const ABOUT_TEXT = `<p></p>Hello, This is Md Sirajul Munir. Experienced Web Design & Developing professional with a Bachelor of Computer Science and Engineering focused in Computer Science from Premier University. I always love to play with creative ideas and innovation. It makes me feel good and passionate. To work in a position where discipline and a high-tech environment will ensure the development and make me more efficient and skillful where I can apply my knowledge and skills for continuous imrovement.</p>
+<br><br>
+<p>I am  familiar with the MERN(MongoDB, Express.js, React, Node.js) stack, which enables me to build robust and scalable web applications. Additionally, I have experience with firebase for backend as a service functionality and I am proficient in HTML, CSS and JavaScript for building engaging and responsive user interfaces.I have also delved into other areas, such as integrating payment systems using Stripe and working with C programming.Furthermore, I have Knowledge of Next.js, a React framework for server side rendering.</p>`;
 
 export const EXPERIENCES = [
   {
@@ -41,6 +43,9 @@ export const EXPERIENCES = [
 export const PROJECTS = [
   {
     title: "Scholarship-Management",
+    client:'https://github.com/EngrMunir/Scholarship-Management-Client',
+    server:'https://github.com/EngrMunir/Scholarship-Management-Server',
+    live:'https://scholarship-management-50872.web.app',
     image: project1,
     description:
       "A fully functional website with features like post scholarship,apply for scholarship, accept or reject application, giving feedback, make payment fees, dashboard for user,admin,moderator and user authentication.",
@@ -48,6 +53,9 @@ export const PROJECTS = [
   },
   {
     title: "Library-Management",
+    client:'https://github.com/EngrMunir/Library-Management-Clent',
+    server:'https://github.com/EngrMunir/Library-Management-Server',
+    live:'https://library-management-clien-5c580.web.app',
     image: project2,
     description:
       "An application for managing books with features such add book, borrow book, return book and user application",
@@ -55,6 +63,9 @@ export const PROJECTS = [
   },
   {
     title: "Jute-wooden-craft",
+    client:'https://github.com/EngrMunir/jute-wooden-client',
+    server:'https://github.com/EngrMunir/jute-wooden-server',
+    live:'https://jute-wooden.web.app',
     image: project2,
     description:
       "An application for selling Wooden Craft, with features such as post craft, booking craft and user authentication.",
@@ -62,6 +73,9 @@ export const PROJECTS = [
   },
   {
     title: "Portfolio Website",
+    client:'https://github.com/EngrMunir/Munir-Portfolio',
+    server:'https://github.com/EngrMunir/Munir-Portfolio',
+    live:'https://react-portfolio-rose-alpha.vercel.app',
     image: project3,
     description:
       "A personal portfolio website showcasing projects, skills, and contact information.",

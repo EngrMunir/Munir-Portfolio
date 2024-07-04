@@ -1,6 +1,7 @@
 import React from 'react';
 import { PROJECTS } from '../constants';
 import { motion } from 'framer-motion';
+import { FaGithub } from 'react-icons/fa';
 
 const Project = () => {
     return (
@@ -33,6 +34,18 @@ const Project = () => {
                                         <span key={index} className='mr-2 rounded bg-neutral-900 px-2 py-1 text-sm font-medium text-purple-900'>{tech}</span>
                                     ))
                                 }
+                                <br />
+                               <div className='flex gap-5'>
+                               <a href={project.live}>
+                                    <button className='bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded mt-4'>Live</button>
+                                </a>
+                                <a href={project.client}>
+                                    <button className='bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded mt-4'>Client</button>
+                                </a>
+                                <a href={project.server}>
+                                    <button className='bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded mt-4'>Server</button>
+                                </a>
+                               </div>
                             </motion.div>
                         </div>
                     ))

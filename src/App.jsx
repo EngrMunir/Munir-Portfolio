@@ -7,6 +7,7 @@ import Experience from './Components/Experience';
 import Project from './Components/Project';
 import Contact from './Components/Contact';
 import { Element } from 'react-scroll';
+import Footer from './Components/Footer';
 
 const App = () => {
   return (
@@ -34,6 +35,10 @@ const App = () => {
         <Element name='contact'>
         <Contact/>
         </Element>
+        <Element name='footer'>
+        <Footer/>
+        </Element>
+        
       </div>
     </div>
   );
