@@ -1,7 +1,8 @@
 import project1 from "../assets/projects/project-1.jpg";
 import project2 from "../assets/projects/project-2.jpg";
 import project3 from "../assets/projects/project-3.jpg";
-import project4 from "../assets/projects/project-4.jpg";
+import parcel from "../assets/projects/parcel.jpg";
+import foot_finesse from "../assets/projects/foot-finesse.jpg";
 
 export const HERO_CONTENT = `I am a passionate full stack developer with a knack for crafting robust and scalable web applications. With 5 years of hands-on experience, I have honed my skills in front-end technologies like React and Next.js, as well as back-end technologies like Node.js, MySQL, PostgreSQL, and MongoDB. My goal is to leverage my expertise to create innovative solutions that drive business growth and deliver exceptional user experiences.`;
 
@@ -52,6 +53,36 @@ export const PROJECTS = [
     technologies: ["HTML", "CSS", "React", "Node.js", "MongoDB","Firebase"],
   },
   {
+    title: "Parcel-Management",
+    client:'https://github.com/EngrMunir/parcel-management-client',
+    server:'https://github.com/EngrMunir/parcel-management-server',
+    live:'https://parcel-management-f16f3.web.app',
+    image: parcel,
+    description:
+      "Application for parcel delivery. User give parcel for delivery, admin will assign delivery men, dashboard for user,admin,moderator and user authentication.",
+    technologies: ["Javascript", "React", "Node.js","Tailwind CSS", "MongoDB","Firebase"],
+  },
+  {
+    title: "Foot-Finesse(Team Project)",
+    client:'https://github.com/EngrMunir/Foot-Finesse',
+    server:'https://github.com/EngrMunir/Foot-Finesse',
+    live:'https://foot-finesse-alpha.vercel.app',
+    image: foot_finesse,
+    description:
+      "This project is a fully functional e-commerce website for selling shoes. It allows users to browse, search, categorize, and purchase a variety of shoes. The site includes key features such as product filtering, email, payment, pagination for a seamless shopping experience.",
+    technologies: ["Javascript", "NextJS", "Node.js","Tailwind CSS", "MongoDB"],
+  },
+  {
+    title: "Laptop-Gallery",
+    client:'https://github.com/EngrMunir/laptop-gallery-client',
+    server:'https://github.com/EngrMunir/laptop-gallery-server',
+    live:'https://laptop-galary.web.app',
+    image: foot_finesse,
+    description:
+      "A responsive e-commerce platform for selling laptops, built using React.js, Javascript and MongoDB.",
+    technologies: ["Javascript", "React", "Node.js","Tailwind CSS", "MongoDB"],
+  },
+  {
     title: "Library-Management",
     client:'https://github.com/EngrMunir/Library-Management-Clent',
     server:'https://github.com/EngrMunir/Library-Management-Server',
@@ -71,16 +102,16 @@ export const PROJECTS = [
       "An application for selling Wooden Craft, with features such as post craft, booking craft and user authentication.",
     technologies: ["HTML", "CSS", "React","Mongodb","Firebase","Nodejs"],
   },
-  {
-    title: "Portfolio Website",
-    client:'https://github.com/EngrMunir/Munir-Portfolio',
-    server:'https://github.com/EngrMunir/Munir-Portfolio',
-    live:'https://react-portfolio-rose-alpha.vercel.app',
-    image: project3,
-    description:
-      "A personal portfolio website showcasing projects, skills, and contact information.",
-    technologies: ["HTML", "CSS", "React", "Tailwind CSs"],
-  }
+  // {
+  //   title: "Portfolio Website",
+  //   client:'https://github.com/EngrMunir/Munir-Portfolio',
+  //   server:'https://github.com/EngrMunir/Munir-Portfolio',
+  //   live:'https://react-portfolio-rose-alpha.vercel.app',
+  //   image: project3,
+  //   description:
+  //     "A personal portfolio website showcasing projects, skills, and contact information.",
+  //   technologies: ["HTML", "CSS", "React", "Tailwind CSs"],
+  // }
 ];
 
 export const CONTACT = {
