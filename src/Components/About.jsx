@@ -1,4 +1,3 @@
-import React from 'react';
 import aboutImg from "../assets/munir.jpeg";
 import { ABOUT_TEXT } from '../constants';
 import { motion } from 'framer-motion';

@@ -1,11 +1,11 @@
-import React from 'react';
 import { FaReact } from 'react-icons/fa';
 import { RiNextjsLine } from "react-icons/ri";
 import { DiJavascript } from "react-icons/di";
-import { SiMongodb } from "react-icons/si";
+import { SiAntdesign, SiExpress, SiMongodb, SiMongoose, SiShadcnui, SiTailwindcss, SiTypescript } from "react-icons/si";
 import { SiFirebase } from "react-icons/si";
 import { DiNodejs } from "react-icons/di";
-import { animate, transform, motion } from 'framer-motion';
+import { motion } from 'framer-motion';
+import { GrMysql } from 'react-icons/gr';
 
 const iconVariants = (duration)=>({
     initial: {y: -10},
@@ -63,6 +63,27 @@ const Technologies = () => {
                     <SiMongodb className="text-7xl text-green-400"/>
                 </motion.div>
                 <motion.div 
+                 variants = {iconVariants(2)}
+                    initial="initial"
+                    animate="animate"
+                className='rounded-2xl border-4 border-neutral-800 p-4'>
+                    <SiMongoose className="text-7xl text-green-400"/>
+                </motion.div>
+                <motion.div 
+                 variants = {iconVariants(2)}
+                    initial="initial"
+                    animate="animate"
+                className='rounded-2xl border-4 border-neutral-800 p-4'>
+                    <GrMysql className="text-7xl text-green-400"/>
+                </motion.div>
+                <motion.div 
+                 variants = {iconVariants(2)}
+                    initial="initial"
+                    animate="animate"
+                className='rounded-2xl border-4 border-neutral-800 p-4'>
+                    <SiTypescript className="text-7xl text-green-400"/>
+                </motion.div>
+                <motion.div 
                  variants = {iconVariants(6)}
                     initial="initial"
                     animate="animate"
@@ -75,6 +96,34 @@ const Technologies = () => {
                     animate="animate"
                 className='rounded-2xl border-4 border-neutral-800 p-4'>
                     <DiNodejs className="text-7xl text-green-500"/>
+                </motion.div>
+                <motion.div 
+                    variants = {iconVariants(3)}
+                    initial="initial"
+                    animate="animate"
+                className='rounded-2xl border-4 border-neutral-800 p-4'>
+                    <SiExpress  className="text-7xl text-cyan-400"/>
+                </motion.div>
+                <motion.div 
+                    variants = {iconVariants(3)}
+                    initial="initial"
+                    animate="animate"
+                className='rounded-2xl border-4 border-neutral-800 p-4'>
+                    <SiAntdesign className="text-7xl text-cyan-400"/>
+                </motion.div>
+                <motion.div 
+                    variants = {iconVariants(3)}
+                    initial="initial"
+                    animate="animate"
+                className='rounded-2xl border-4 border-neutral-800 p-4'>
+                    <SiShadcnui className="text-7xl text-cyan-400"/>
+                </motion.div>
+                <motion.div 
+                    variants = {iconVariants(3)}
+                    initial="initial"
+                    animate="animate"
+                className='rounded-2xl border-4 border-neutral-800 p-4'>
+                    <SiTailwindcss className="text-7xl text-cyan-400"/>
                 </motion.div>
             </motion.div>
         </div>

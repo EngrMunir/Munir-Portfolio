@@ -115,7 +115,7 @@ export const PROJECTS = [
 ];
 
 export const CONTACT = {
-  address: "Chattogram, Bangladesh",
+  address: "Mirpur-10, Dhaka, Bangladesh",
   phoneNo: "+8801831013421",
   email: "smsirajulmonir@gmail.com",
 };
