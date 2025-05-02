@@ -1,7 +1,5 @@
-import React from 'react';
 import { PROJECTS } from '../constants';
 import { motion } from 'framer-motion';
-import { FaGithub } from 'react-icons/fa';
 
 const Project = () => {
     return (
