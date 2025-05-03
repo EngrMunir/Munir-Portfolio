@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom';
 import { PROJECTS } from '../constants';
 import { motion } from 'framer-motion';
 
@@ -26,7 +27,7 @@ const Project = () => {
                              transition={{duration: 1}}
                             className='w-full max-w-xl lg:w-3/4'>
                                 <h6 className='mb-2 font-semibold'>{project.title}</h6>
-                                <p className='mb-4 text-neutral-400'>{project.description}</p>
+                                {/* <p className='mb-4 text-neutral-400'>{project.description}</p> */}
                                 {
                                     project.technologies.map((tech, index) =>(
                                         <span key={index} className='mr-2 rounded bg-neutral-900 px-2 py-1 text-sm font-medium text-purple-900'>{tech}</span>
@@ -43,6 +44,9 @@ const Project = () => {
                                 <a href={project.server}>
                                     <button className='bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded mt-4'>Server</button>
                                 </a>
+                                <Link to={`/details/${project.id}`}>
+                                    <button className='bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded mt-4'>Details</button>
+                                </Link>
                                </div>
                             </motion.div>
                         </div>

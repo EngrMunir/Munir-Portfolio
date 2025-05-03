@@ -31,8 +31,10 @@ const Hero = () => {
                          animate="visible"
                         className='bg-gradient-to-r from-pink-300 via-slate-500 to bg-purple-500 bg-clip-text 
                         text-3xl tracking-tight text-transparent'>MERN Stack Developer</motion.span>
-                        <a href='/resume.pdf' download="resume.pdf">
-                            <button className='bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded mt-4'>Get Resume</button>
+                        <a href='/resume.pdf' target="_blank" rel="noopener noreferrer">
+                            <button className='bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded mt-4'>
+                                View Resume
+                            </button>
                         </a>
                         <h2 className='mt-8'>Follow Me</h2>
                         <div className="divider"></div>

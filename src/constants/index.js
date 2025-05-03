@@ -22,6 +22,7 @@ export const EXPERIENCES = [
 
 export const PROJECTS = [
   {
+    id:1,
     title:"Tutor Link",
     client:"https://github.com/EngrMunir/Tutor-Link-Frontend.git",
     server:"https://github.com/MohammadTanvir881/Tutiors-Link-Backend.git",
@@ -31,6 +32,7 @@ export const PROJECTS = [
     technologies:["Nextjs","ExpressJS","NodeJs","MongoDB","Typescript","Redux"],
   },
   {
+    id:2,
     title:"Car Shop",
     client:"https://github.com/EngrMunir/Car-Store-Client",
     server:"https://github.com/EngrMunir/Car-Store-Serve",
@@ -40,6 +42,7 @@ export const PROJECTS = [
     technologies:["React","ExpressJS","NodeJs","MongoDB","Typescript","Redux"],
   },
   {
+    id:3,
     title: "Scholarship-Management",
     client:'https://github.com/EngrMunir/Scholarship-Management-Client',
     server:'https://github.com/EngrMunir/Scholarship-Management-Server',
@@ -50,6 +53,7 @@ export const PROJECTS = [
     technologies: ["HTML", "CSS", "React", "Node.js", "MongoDB","Firebase"],
   },
   {
+    id:4,
     title: "Parcel-Management",
     client:'https://github.com/EngrMunir/parcel-management-client',
     server:'https://github.com/EngrMunir/parcel-management-server',
@@ -60,6 +64,7 @@ export const PROJECTS = [
     technologies: ["Javascript", "React", "Node.js","Tailwind CSS", "MongoDB","Firebase"],
   },
   {
+    id:5,
     title: "Foot-Finesse(Team Project)",
     client:'https://github.com/EngrMunir/Foot-Finesse',
     server:'https://github.com/EngrMunir/Foot-Finesse',
