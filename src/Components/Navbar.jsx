@@ -8,7 +8,7 @@ const Navbar = () => {
   return (
     <nav className='flex items-center justify-between py-6 px-4 md:px-8'>
       <div className='flex flex-shrink-0 items-center'>
-        <h2 className='text-2xl'>Portfolio</h2>
+        <h2 className='text-2xl'>Sirajul Munir</h2>
       </div>
 
       {/* Hamburger menu for mobile */}

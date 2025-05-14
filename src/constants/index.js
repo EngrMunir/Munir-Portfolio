@@ -52,28 +52,28 @@ export const PROJECTS = [
       "A fully functional website with features like post scholarship,apply for scholarship, accept or reject application, giving feedback, make payment fees, dashboard for user,admin,moderator and user authentication.",
     technologies: ["HTML", "CSS", "React", "Node.js", "MongoDB","Firebase"],
   },
-  {
-    id:4,
-    title: "Parcel-Management",
-    client:'https://github.com/EngrMunir/parcel-management-client',
-    server:'https://github.com/EngrMunir/parcel-management-server',
-    live:'https://parcel-management-f16f3.web.app',
-    image: parcel,
-    description:
-      "Application for parcel delivery. User give parcel for delivery, admin will assign delivery men, dashboard for user,admin,moderator and user authentication.",
-    technologies: ["Javascript", "React", "Node.js","Tailwind CSS", "MongoDB","Firebase"],
-  },
-  {
-    id:5,
-    title: "Foot-Finesse(Team Project)",
-    client:'https://github.com/EngrMunir/Foot-Finesse',
-    server:'https://github.com/EngrMunir/Foot-Finesse',
-    live:'https://foot-finesse-alpha.vercel.app',
-    image: foot_finesse,
-    description:
-      "This project is a fully functional e-commerce website for selling shoes. It allows users to browse, search, categorize, and purchase a variety of shoes. The site includes key features such as product filtering, email, payment, pagination for a seamless shopping experience.",
-    technologies: ["Javascript", "NextJS", "Node.js","Tailwind CSS", "MongoDB"],
-  },
+  // {
+  //   id:4,
+  //   title: "Parcel-Management",
+  //   client:'https://github.com/EngrMunir/parcel-management-client',
+  //   server:'https://github.com/EngrMunir/parcel-management-server',
+  //   live:'https://parcel-management-f16f3.web.app',
+  //   image: parcel,
+  //   description:
+  //     "Application for parcel delivery. User give parcel for delivery, admin will assign delivery men, dashboard for user,admin,moderator and user authentication.",
+  //   technologies: ["Javascript", "React", "Node.js","Tailwind CSS", "MongoDB","Firebase"],
+  // },
+  // {
+  //   id:5,
+  //   title: "Foot-Finesse(Team Project)",
+  //   client:'https://github.com/EngrMunir/Foot-Finesse',
+  //   server:'https://github.com/EngrMunir/Foot-Finesse',
+  //   live:'https://foot-finesse-alpha.vercel.app',
+  //   image: foot_finesse,
+  //   description:
+  //     "This project is a fully functional e-commerce website for selling shoes. It allows users to browse, search, categorize, and purchase a variety of shoes. The site includes key features such as product filtering, email, payment, pagination for a seamless shopping experience.",
+  //   technologies: ["Javascript", "NextJS", "Node.js","Tailwind CSS", "MongoDB"],
+  // },
   // {
   //   title: "Laptop-Gallery",
   //   client:'https://github.com/EngrMunir/laptop-gallery-client',
@@ -111,3 +111,158 @@ export const CONTACT = {
   phoneNo: "+8801831013421",
   email: "smsirajulmonir@gmail.com",
 };
+
+export const projects = [
+  {
+    id: 1,
+    slug: "tutor-connect-platform",
+    title: "Tutor Connect - Online Tutor Marketplace",
+    description:
+      "A full-featured MERN-based platform connecting students with qualified tutors for personalized learning.",
+    longDescription: [
+      "Tutor Connect is an EdTech marketplace that enables students to discover and book sessions with verified tutors based on subject, rating, and availability.",
+      "The platform features a robust filtering system, live chat, secure payments, and detailed tutor profiles to ensure a smooth and reliable learning experience.",
+      "This project was designed to address accessibility gaps in education by connecting learners with skilled educators regardless of location.",
+    ],
+    imageUrl:
+      "https://i.ibb.co/CKrRMv3m/tutor.png",
+
+    galleryImages: [
+      "https://i.ibb.co/nNvvTLwx/Capture.png",
+      "https://i.ibb.co/YTpJn72c/Capture1.png",
+    ],
+    liveUrl: "https://tutor-link-frontend-rho.vercel.app",
+    githubUrl: "https://github.com/EngrMunir/Tutor-Link-Frontend.git",
+    techStack: [
+      { name: "MongoDB", color: "green" },
+      { name: "Express.js", color: "yellow" },
+      { name: "Next.js", color: "blue" },
+      { name: "Node.js", color: "lime" },
+      { name: "Tailwind CSS", color: "cyan" },
+      { name: "TypeScript", color: "purple" },
+    ],
+    features: [
+      "User authentication with role-based access",
+      "Tutor search with filters (subject, rating, location)",
+      "Real-time chat between students and tutors",
+      "Secure Stripe payment integration",
+      "Tutor application and admin approval workflow",
+    ],
+    challenges: [
+      {
+        challenge: "Dynamic filtering and pagination",
+        solution:
+          "Used MongoDB aggregation pipeline and client-side debounce for efficient filtering",
+      },
+      {
+        challenge: "Payment flow integration",
+        solution:
+          "Integrated Stripe Checkout with custom success/failure redirection",
+      },
+    ],
+    lessonsLearned: [
+      "Gained practical experience designing scalable APIs with Express and MongoDB.",
+      "Learned to structure large-scale React apps with reusable components and clean routing.",
+      "Realized the importance of UX and onboarding flow for multi-role platforms.",
+    ],
+  },
+
+  {
+    id: 2,
+    slug: "carhop-platform",
+    title: "CarShop",
+    description:
+      "A dynamic e-commerce platform for browsing, searching, and purchasing cars with integrated cart and payment functionality.",
+    longDescription: [
+      "CarShop is a full-stack web application designed for car enthusiasts to discover, explore, and buy car from a wide catalog.",
+      "The platform includes category-based browsing, real-time search, user authentication, cart management, and a secure checkout system.",
+      "This project was built to simulate a professional-grade online carstore with responsive design and performance optimization.",
+    ],
+    imageUrl:
+      "https://i.ibb.co/JWRC8G51/carshop.png",
+    galleryImages: [
+      "https://i.ibb.co/Xf3Y4fKQ/Capture2.png",
+      "https://i.ibb.co/cSFR6XsW/Capture3.png",
+    ],
+    liveUrl: "https://car-store-frontend-drab.vercel.app",
+    githubUrl: "https://github.com/EngrMunir/Car-Store-Client",
+    techStack: [
+      { name: "React", color: "blue" },
+      { name: "MongoDB", color: "green" },
+      { name: "Tailwind CSS", color: "cyan" },
+      { name: "Stripe", color: "purple" },
+      { name: "Redux", color: "blue" },
+      { name: "TypeScript", color: "indigo" },
+    ],
+    features: [
+      "User authentication and profile management",
+      "Real-time search and filter for books",
+      "Cart system with quantity management",
+      "Stripe-powered payment gateway",
+      "Admin dashboard for product management",
+    ],
+    challenges: [
+      {
+        challenge: "Dynamic search optimization",
+        solution: "Implemented debounced queries and MongoDB indexing",
+      },
+      {
+        challenge: "Handling secure transactions",
+        solution: "Integrated SSLCOMMERZ Checkout with webhook handling",
+      },
+    ],
+    lessonsLearned: [
+      "Learned to manage e-commerce states across components",
+      "Gained experience with secure backend integrations and deployment",
+    ],
+  },
+  {
+    id: 3,
+    slug: "alphabet-clash",
+    title: "Alphabet Clash - Word Battle Game",
+    description:
+      "An engaging and interactive word battle game built using vanilla JavaScript, Tailwind CSS, and DOM manipulation.",
+    longDescription: [
+      "Alphabet Clash is a fun and challenging game where players compete to form words using a randomized set of letters within a time limit.",
+      "Built with JavaScript, this game utilizes DOM manipulation to create a dynamic, responsive interface.",
+      "Tailwind CSS was used to style the game for a clean and modern look, with a focus on responsive design for all devices.",
+    ],
+    imageUrl:
+      "https://i.ibb.co/60SRyyJ8/Screenshot-from-2025-05-01-01-40-51.png", // Corrected screenshot URL
+    galleryImages: [
+      "https://i.ibb.co/m5czCv6Z/Screenshot-from-2025-05-01-01-41-00.png", // Corrected gallery image URL
+      "https://i.ibb.co/MDQf0vTZ/Screenshot-from-2025-05-01-01-41-11.png", // Corrected gallery image URL
+    ],
+
+    liveUrl: "https://mohammadtanvir881.github.io/kdb-games/", // Replace with your live demo link
+    githubUrl: "https://github.com/MohammadTanvir881/kdb-games", // Replace with your GitHub repo URL
+    techStack: [
+      { name: "JavaScript", color: "yellow" },
+      { name: "Tailwind CSS", color: "cyan" },
+      { name: "DOM Manipulation", color: "blue" },
+    ],
+    features: [
+      "Real-time word formation with a time limit",
+      "Score tracking and high score leaderboard",
+      "Responsive design for mobile and desktop users",
+      "Fun and engaging UI with interactive animations",
+    ],
+    challenges: [
+      {
+        challenge: "Handling dynamic DOM updates",
+        solution:
+          "Used event listeners and DOM manipulation to update the game state in real-time.",
+      },
+      {
+        challenge: "Creating a responsive design",
+        solution:
+          "Leveraged Tailwind CSS's utility-first classes to ensure the game worked across different screen sizes.",
+      },
+    ],
+    lessonsLearned: [
+      "Enhanced my JavaScript skills by using DOM manipulation to create an interactive experience.",
+      "Gained experience in building responsive UIs with Tailwind CSS.",
+      "Learned to handle user interactions and real-time updates in games.",
+    ],
+  },
+];
