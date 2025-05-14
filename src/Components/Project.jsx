@@ -52,22 +52,7 @@ const Project = () => {
                             >
                                 Live
                             </a>
-                            <a
-                                href={project.client}
-                                target="_blank"
-                                rel="noopener noreferrer"
-                                className="bg-blue-600 hover:bg-blue-700 text-white text-sm font-semibold py-2 px-4 rounded"
-                            >
-                                Client
-                            </a>
-                            <a
-                                href={project.server}
-                                target="_blank"
-                                rel="noopener noreferrer"
-                                className="bg-blue-600 hover:bg-blue-700 text-white text-sm font-semibold py-2 px-4 rounded"
-                            >
-                                Server
-                            </a>
+                           
                             <Link to={`/details/${project.id}`}>
                                 <button className="bg-blue-600 hover:bg-blue-700 text-white text-sm font-semibold py-2 px-4 rounded">
                                     Details

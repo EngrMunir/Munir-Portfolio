@@ -218,51 +218,51 @@ export const projects = [
   },
   {
     id: 3,
-    slug: "alphabet-clash",
-    title: "Alphabet Clash - Word Battle Game",
+    slug: "scholarship-management",
+    title: "Scholarship-Management",
     description:
-      "An engaging and interactive word battle game built using vanilla JavaScript, Tailwind CSS, and DOM manipulation.",
+      "A fully functional website for scholarship management",
     longDescription: [
-      "Alphabet Clash is a fun and challenging game where players compete to form words using a randomized set of letters within a time limit.",
-      "Built with JavaScript, this game utilizes DOM manipulation to create a dynamic, responsive interface.",
-      "Tailwind CSS was used to style the game for a clean and modern look, with a focus on responsive design for all devices.",
+       "A fully functional website with features like post scholarship,apply for scholarship, accept or reject application, giving feedback, make payment fees, dashboard for user,admin,moderator and user authentication.",
     ],
     imageUrl:
-      "https://i.ibb.co/60SRyyJ8/Screenshot-from-2025-05-01-01-40-51.png", // Corrected screenshot URL
+      "https://i.ibb.co/wZXvc94P/Capture4.png", // Corrected screenshot URL
     galleryImages: [
-      "https://i.ibb.co/m5czCv6Z/Screenshot-from-2025-05-01-01-41-00.png", // Corrected gallery image URL
-      "https://i.ibb.co/MDQf0vTZ/Screenshot-from-2025-05-01-01-41-11.png", // Corrected gallery image URL
+      "https://i.ibb.co/v4YNY9qK/Capture5.png", // Corrected gallery image URL
+      "https://i.ibb.co/SXwQvxP5/Capture6.png", // Corrected gallery image URL
     ],
 
-    liveUrl: "https://mohammadtanvir881.github.io/kdb-games/", // Replace with your live demo link
-    githubUrl: "https://github.com/MohammadTanvir881/kdb-games", // Replace with your GitHub repo URL
+    liveUrl: "https://scholarship-management-50872.web.app",
+    githubUrl: "https://github.com/EngrMunir/Scholarship-Management-Client",
     techStack: [
-      { name: "JavaScript", color: "yellow" },
+       { name: "React", color: "blue" },
+      { name: "MongoDB", color: "green" },
       { name: "Tailwind CSS", color: "cyan" },
-      { name: "DOM Manipulation", color: "blue" },
+      { name: "Stripe", color: "purple" },
+      { name: "NodeJS", color: "blue" },
+      { name: "Firebase", color: "yellow" },
     ],
     features: [
       "Real-time word formation with a time limit",
-      "Score tracking and high score leaderboard",
+      "Scholarship status tracking",
       "Responsive design for mobile and desktop users",
-      "Fun and engaging UI with interactive animations",
     ],
     challenges: [
       {
         challenge: "Handling dynamic DOM updates",
         solution:
-          "Used event listeners and DOM manipulation to update the game state in real-time.",
+          "Used event listeners and DOM",
       },
       {
         challenge: "Creating a responsive design",
         solution:
-          "Leveraged Tailwind CSS's utility-first classes to ensure the game worked across different screen sizes.",
+          "Leveraged Tailwind CSS's utility-first classes to ensure the website worked across different screen sizes.",
       },
     ],
     lessonsLearned: [
       "Enhanced my JavaScript skills by using DOM manipulation to create an interactive experience.",
       "Gained experience in building responsive UIs with Tailwind CSS.",
-      "Learned to handle user interactions and real-time updates in games.",
+      "Learned to handle user interactions and real-time updates",
     ],
   },
 ];
